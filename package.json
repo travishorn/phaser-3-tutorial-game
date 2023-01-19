@@ -1,0 +1,38 @@
+{
+  "name": "phaser-3-tutorial-game",
+  "version": "0.1.0",
+  "description": "The game from Phaser's official version 3 tutorial.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "keywords": ["platformer", "game", "phaser"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/phaser-3-tutorial-game.git"
+  },
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travishorn/phaser-3-tutorial-game/issues"
+  },
+  "homepage": "https://github.com/travishorn/phaser-3-tutorial-game#readme",
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
